@@ -1,17 +1,21 @@
+
+<!-- header -->
+
 <%- include partials/header.ejs %>
 
+<!-- Main Navigation -->
 <%- include partials/main_nav.ejs %>
   
 
-  <!-- Main Content -->
+  <!-- Main Content of home-->
   
   <div class="header1">
-    <h1>Welcome to the <%= title %> page</h1>
+    <h1>Welcome to <%= title %> page</h1>
   </div>
   <div class="homePage">
   <a href="my-pic.jpg" target="_blank"><img id="profilePic" src="/Assets/images/my-pic.jpg" alt="My Photo"></a>
-
-  <p id="introPara">
+  <hr>
+  <p>
   
    Welcome to my MR IT solutions portfolio! Inovation is my inspiration. 
    Software technology is the backbone of modern digital society, powering everything from smartphones and computers to smart appliances and industrial machinery.
@@ -19,12 +23,14 @@
    frameworks, and tools emerging regularly to meet the demands of the ever-changing technological landscape.
   </p>
 
-  <h1>"To drive digital transformation through software excellence."</h1>
+  <h2>"To drive digital transformation through software excellence."</h2>
 
 </div>
-  
-<%- include partials/bottom_nav.ejs %>  
+  <hr>
 
+  <!-- bottom navigation-->
+<%- include partials/bottom_nav.ejs %>  
+<!-- footer navigation -->
 <%- include partials/footer.ejs %>
   
 

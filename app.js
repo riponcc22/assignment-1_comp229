@@ -1,4 +1,4 @@
-// installed 3rd party packages
+// 3rd party packages
 let createError = require('http-errors');
 let express = require('express');
 let path = require('path');
@@ -10,9 +10,9 @@ let usersRouter = require('./routes/users');
 
 let app = express();
 
-// view engine setup
+// engine setup view
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs'); // express  -e
+app.set('view engine', 'ejs'); //display express  -e
 
 app.use(logger('dev'));
 app.use(express.json());
